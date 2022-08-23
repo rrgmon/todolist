@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+    display: grid;
+    place-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+}
